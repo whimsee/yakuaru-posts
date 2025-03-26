@@ -1,0 +1,9 @@
+services:
+  yakuaru-posts:
+    container_name: yakuaru-posts
+    image: yakuaru-posts
+    # volumes: 
+    #  - ./:/docs
+    ports: 
+      - 3000:3000
+    command: server
